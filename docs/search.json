@@ -2,16 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Identifying Levers: An Introduction to Causal Inference in Business",
+    "title": "A Business Strategist’s Guide to Sports Strategy",
     "section": "",
-    "text": "Preface\nOne of the pioneer books in statistical learning is The Elements of Statistical Learning. This book covers topics ranging from regression to tree methods to other unsupervised learning methods. The book is very thorough in addressing the statistical theory behind these learning algorithms."
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Preface",
-    "section": "",
-    "text": "I wrote this book as a way to better understand causal inference in my domain of business. The term “levers” is repeadetly used in the business world as a way of saying “What can we control?”. I was formally trained as a statistician in my educational pursuits and within my classes we would discuss aspects of causal inference. However, as I have continued through my business degree, understanding better the different “levers” within business and what effects they have was deeply interesting to me. I began researching things like uplift modeling and discovered this world of causality."
+    "text": "Preface\nA side project where I practice strategy in the realm of sports."
   },
   {
     "objectID": "summary.html",
@@ -19,12 +12,5 @@
     "title": "2  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]
