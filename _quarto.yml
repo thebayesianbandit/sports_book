@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "Identifying Levers: An Introduction to Causal Inference in Business"
+  title: "A Business Strategist's Guide to Sports Strategy"
   author: "Brandon Scott"
-  date: "5/12/2025"
+  date: "12/07/2025"
   chapters:
     - index.qmd
     - intro.qmd
