@@ -1,1 +1,8 @@
 /.quarto/
+.ipynb_checkpoints/
+.ipython/
+.venv/
+env/
+venv/
+*.nbconvert.html
+*.nbconvert.pdf

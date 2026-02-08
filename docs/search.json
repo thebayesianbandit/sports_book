@@ -7,9 +7,16 @@
     "text": "Preface\nA side project where I practice strategy in the realm of sports."
   },
   {
+    "objectID": "chapter_1.html",
+    "href": "chapter_1.html",
+    "title": "2  What are your beliefs?",
+    "section": "",
+    "text": "In his book Leading with the Heart, Coach Krzyzewski lays out in the early chapters the importance of establishing an identity for any team. He credits a lot of this thought to his familiar upbringing where his parents instilled in him and his siblings the importance of family values. He also credits a lot of this to his military training where each member of a unit knew the importance of knowing their role to play in the success of an assignment. In short, who Coach Kryzyewski was drove a lot of how he ran his basketball team. Integrity was an important principle on the team because he valued it in his own life, and the list goes on of how he built his teams around these common attributes.\nCoach Kryzewski isn’t the only one who does this. Everyone has beliefs that influence how they approach work. The trick though is identifying what those beliefs are in order to check if the actions we are performing are aligned with the values we espouse having.\nIn 1954, an academic by the name of Leonard J. Savage published the book The Foundations of Statistics [Savage1954]. In it, Dr. Savage brought to light many models that demonstrated how our beliefs influence our decisions. The most notable of this models is the Subjective Expected Utility (SEU) model. The mathematical formula is found below in Equation 2.1.\n\\[\nU(f) = \\int_{S} u(f(s)) \\, dP(s)\n\\tag{2.1}\\]"
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "3  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
   }
