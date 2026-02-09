@@ -179,7 +179,7 @@ Basketball}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, enhanced, sharp corners, frame hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, sharp corners, enhanced, breakable, frame hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -224,16 +224,44 @@ that influence how they approach work. The trick though is identifying
 what those beliefs are in order to check if the actions we are
 performing are aligned with the values we espouse having.
 
-In 1954, an academic by the name of \textbf{Leonard J. Savage} published
-the book \emph{The Foundations of Statistics} {[}Savage1954{]}. In it,
-Dr.~Savage brought to light many models that demonstrated how our
-beliefs influence our decisions. The most notable of this models is the
-\textbf{Subjective Expected Utility (SEU)} model. The mathematical
-formula is found below in Equation~\ref{eq-seu-1}.
+In 1954, statistician \textbf{Leonard J. Savage} published \emph{The
+Foundations of Statistics} {[}Savage1954{]}. In this work, Savage
+introduced several models demonstrating how subjective beliefs influence
+decision-making. The most notable of these models is Subjective Expected
+Utility (SEU), shown in Equation~\ref{eq-seu-1}.
 
 \begin{equation}\protect\hypertarget{eq-seu-1}{}{
-U(f) = \int_{S} u(f(s)) \, dP(s)
+U(f) = \int_{S} u(f(s)) p(s) \, ds
 }\label{eq-seu-1}\end{equation}
+
+Breaking down the formula a bit, we say that the expected utility of an
+individual (\(U(f)\)) is equal to the integral of the state space \(S\),
+the utility function \(u(f(s))\), and the subjective probability density
+function (PDF) \(p(s)\). What this ``complex'' formula is essentially
+saying is that we make decisions based on \textbf{our perceived values}
+and \textbf{our current information}. The perceived values are
+represented via the utility function as that mathematically maps our
+tastes and preferences to a more ``measurable'' area. The PDF is how we
+currently perceive how likely our outcomes are that derive our utility.
+
+That was a lot of mathematic and economic jargon, so let's move into an
+example that most people can relate to: what is the quickest way to get
+home. Let's pose for a moment that we don't have google maps to tell us
+which route is the ``quickest'' way to get home. As well, let's suppose
+there are only two ways to get home: via the freeway or through town.
+Your utility is highest when your commute is as short as possible (ie by
+minimizing your commute time, you maximize utility). You know that the
+freeway is the fastest way to get home, but you believe there is about a
+30\% chance that there is an accident on the freeway and that would slow
+things down considerably. The other way through town is the slowest
+option, but you know that there is only about a 5\% chance there is an
+accident. Which way would you choose?
+
+This is the SEU model in action. We all have ``imperfect'' information
+(\(p(s)\)) along with personal preferences (\(u(f(s))\)) that drive our
+decisions. Recognizing this and formalizing it in a mathematical model
+helps us to do two things: understand what our current beliefs are and
+what we currently decide based on those decisions.
 
 \bookmarksetup{startatroot}
 
