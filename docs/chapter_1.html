@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -193,8 +212,20 @@ U(f) = \int_{S} u(f(s)) p(s) \, ds
 <h2 data-number="2.1" class="anchored" data-anchor-id="updating-beliefs-the-power-of-bayesian-thinking"><span class="header-section-number">2.1</span> Updating Beliefs: The Power of Bayesian Thinking</h2>
 <p>An important example of this is the development of a gameplan. Coaches watch lots of film to understand the tendencies, strengths, and weaknesses of each team they compete against. Before watching the film, your beliefs about a given team can be fairly broad. You may have heard the team shoots a lot of three or likes feeding the post, etc. Once you engage with material that potentially reinforces this idea, your uncertainty decreases and you are more “willing” to commit to certain actions since you know they more than likely would happen. If you were unsure that someone on the opposing team would still shoot even on a closeout but watching film you see repeatedly they are a quick trigger, you are more certain that this would be a viable strategy to defend against them.</p>
 <p>This doesn’t only happen in pre-game planning. This happens during the game as you adjust your players, offense, and defense matchups according to new information you perceive over the course of the game.</p>
+<p>Mathematically, this can be modeled using <strong>Bayesian statistics</strong>. The story on how Bayesian statistics came to be essentially goes like this. Back in the 1700s, an english minister by the name of <strong>Thomas Bayes</strong> wanted to essentially prove that the resurrection occurred. To do this, he asked a profound question: if you don’t know the certainty of an event, <strong>how can you calculate the probability of that event happening given observed events?</strong> This led Bayes to publish his paper <em>An Essay towards solving a Problem in the Doctrine of Chances</em> <span class="citation" data-cites="Bayes1763">(<a href="references.html#ref-Bayes1763" role="doc-biblioref">Bayes 1763</a>)</span> where he formalized this phenemon. That is, as people see new evidence on a particular matter, their beliefs are updated based on the strength of the evidence.</p>
+<p>In the game of basketball, this is crucial to recognize, especially as a coach. Let’s walk through the mathematics of this using some visualizations. Let’s say that you are preparing to play a team that is great at moving the ball. They’re an unselfish team that excels at making sure everyone touches the ball before a shot attempt. You want to understand how often they pass because you think that if you can accurately “predict” on what number pass they will attempt to shoot, you can better prepare your defense for a shot and subsequent rebound attempt.</p>
+<p>A simple way we could model this is using a <strong>Poisson distribution</strong>. Poisson distributions are handy for calculating the number of discrete events that take place in a given period of time (in our case, a single half-court possession). The probability mass function (PMF) for the Poisson distribution is shown below.</p>
+<p><span id="eq-poi-1"><span class="math display">\[
+P(k \mid \lambda) = \frac{\lambda^k e^{-\lambda}}{k!}
+\tag{2.2}\]</span></span></p>
+<p>This PMF simply states that the probability that we observe <span class="math inline">\(k\)</span> number of passes given a distribution parameter <span class="math inline">\(\lambda\)</span> is equal to what you see in <a href="#eq-poi-1">Equation&nbsp;<span>2.2</span></a>.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Bayes1763" class="csl-entry" role="listitem">
+Bayes, Thomas. 1763. <span>“An Essay Towards Solving a Problem in the Doctrine of Chances. By the Late Rev. Mr. Bayes, f. R. S. Communicated by Mr. Price, in a Letter to John Canton, a. M. F. R. s.”</span> <em>Philosophical Transactions of the Royal Society of London</em> 53: 370–418. <a href="https://doi.org/10.1098/rstl.1763.0053">https://doi.org/10.1098/rstl.1763.0053</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
