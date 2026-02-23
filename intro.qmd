@@ -1,3 +1,20 @@
-# What is Strategy?
+# Preface {.unnumbered}
 
+Growing up, I played a lot of sports. Football was the most popular option in my youth, but after a leg injury, I decided it wasn’t for me. That’s when basketball took center stage.
+
+I grew to love the game. Beyond the physical benefits, the sport provided a lifetime of memories and friendships. I spent countless hours playing pickup with friends at parks and rec centers, eventually moving into leagues ranging from competitive high school play to community leagues.
+
+While my passion for the game grew, it also faced moments of stunted growth. Coaches exert a profound influence on a player's love for the sport. Sadly, I had coaches who made me question whether I wanted to keep playing at all. Looking back, I realize I wasn't losing my love for the game itself; I was losing my faith in the systems my coaches had put in place.
+
+Many coaches preach that effort equals playing time. I took that to heart, working relentlessly in practice to prove my readiness. Yet, when game time arrived, I remained on the bench. I will be the first to admit I wasn't a physical specimen who could easily out-shoot or overpower opponents. However, the frustration stemmed from a fundamental disconnect: I was following the "system" my coach had established, yet I wasn't receiving the promised reward.
+
+Years later, as I have progressed through different educational opportunities and jobs, I’ve realized that this wasn’t just a basketball issue. This is a fundamental issue across many industries. Many people in positions of organizational influence expect success in a certain metric without providing the frameworks or means to achieve what they desire.
+
+As I have pondered the good and the bad I experienced in those situations, I have come to realize that those who expected and achieved success all had one thing in common: they had people who understood systems thinking.
+
+From a basketball perspective, this is what separates the good coaches from the great ones. Good coaches know they need results, but they almost "hope" that success will occur by trying different things. Great coaches know how to systematically organize their team—from understanding the "why" behind their philosophies, to implementing them via game plans, to executing it all in-game. Great coaches know how to adjust levers within the entire ecosystem at their disposal to create their own success.
+
+This book takes a mathematical approach to systems thinking. I believe that mathematical tools can enhance systems thinking since mathematics is the language of quantified metrics. Through a mathematical lens, we can take traditional basketball thinking and augment the "how" and "why" with mathematical formulae.
+
+In the end, coaches don’t need to be expert mathematicians to succeed. However, those who use the contents of this book to enhance their systems thinking will find they can easily apply these principles to their own teams and better understand how to create their own success.
 

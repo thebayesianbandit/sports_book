@@ -1,3 +1,3 @@
-# Preface {.unnumbered}
+# Welcome {.unnumbered}
 
-A side project where I practice strategy in the realm of sports.
+This is a live book that I am continually adding to, taking away from, and revising. Feel free to reach out with comments or suggestions. 
