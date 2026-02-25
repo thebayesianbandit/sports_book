@@ -9,7 +9,7 @@
 <meta name="author" content="Brandon Scott">
 <meta name="dcterms.date" content="2026-02-08">
 
-<title>Systematic Coaching: The Power of Mathematical Thinking in Basketball - 1&nbsp; What are your beliefs?</title>
+<title>The Dyanmics of Basketball - 1&nbsp; What are your beliefs?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -111,7 +111,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Systematic Coaching: The Power of Mathematical Thinking in Basketball</a> 
+      <a href="./">The Dyanmics of Basketball</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -223,6 +223,12 @@ P(k \mid \lambda) = \frac{\lambda^k e^{-\lambda}}{k!}
 </div>
 </div>
 </div>
+<p>The plot above merely shows the frequency each value <span class="math inline">\(k\)</span> should occur based on our belief that the average frequency (<span class="math inline">\(\lambda\)</span>) is equal to 3. The most frequent value here is 3 which makes sense since that is the average of this kind of distribution. To get a probability from this, just plug the value <span class="math inline">\(k\)</span> into the equation <a href="#eq-poi-1">Equation&nbsp;<span>1.2</span></a>. Using that, we get the probability of the team making exactly 3 passes in a given possession to be ~22%.</p>
+<p>But how certain are you that the average number of passes is exactly 3? How much data have you collected that would show that they always have this kind of distribution for number of passes in a given offesnive possession? This is where Bayesian updating comes in. We don’t have to stick with just 3 <span class="math inline">\(\lambda\)</span> parameter. We can have lambda take on a whole <strong>distribution of values</strong> that represent our uncertainty about it. The way we model this is shown in <a href="#eq-bayes-1">Equation&nbsp;<span>1.3</span></a>.</p>
+<p><span id="eq-bayes-1"><span class="math display">\[
+P(\lambda | D) = \frac{P(D | \lambda) P(\lambda)}{P(D)}
+\tag{1.3}\]</span></span></p>
+<p>The equation above is what we discussed earlier with Sir Thomas Bayes. In words, <a href="#eq-bayes-1">Equation&nbsp;<span>1.3</span></a> states that our beliefs are updated based on new data we receive. In the context of our basketball scouting, our belief of the average number of passes in a given offensive possesion <span class="math inline">\(\lambda\)</span> is updated by the data we receive <span class="math inline">\(D\)</span> through a simple ratio. The numerator is the product between our prior beliefs <span class="math inline">\(P(\lambda)\)</span> and the likelihood of our beliefs <span class="math inline">\(P(D|\lambda)\)</span> divided by the probability of observing the data <span class="math inline">\(P(D)\)</span>.</p>
 
 
 <div id="refs" class="references csl-bib-body" role="list" style="display: none">
