@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "The Dyanmics of Basketball"
+  title: "The Dynamics of Basketball"
   author: "Brandon Scott"
   date: "02/22/2026"
   chapters:
